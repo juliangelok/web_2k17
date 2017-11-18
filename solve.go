@@ -1,8 +1,5 @@
 package main
-import ( 
-"fmt"
-"strings"
-)
+import "strings"
 var degr=1;
 func PowerGenerator(a int) (func() int) { 
 return func() (ret int) {
