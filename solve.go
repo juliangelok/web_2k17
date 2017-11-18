@@ -1,7 +1,7 @@
 package main
 import "strings"
-var degr=1;
 func PowerGenerator(a int) (func() int) { 
+  degr:=1;
 return func() (ret int) {
 degr = degr*a
 ret = degr
